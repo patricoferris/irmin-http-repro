@@ -1,5 +1,9 @@
 ## Irmin HTTP Repro
 
+### To reproduce
+
+After installing the dependencies (most of them should be in `irmin-repro.opam`) you can run `make all`. Once that is serving you can go to `http://localhost:8080` and open the browser's console (tested on a Google Chrome and Brave) to see the printed errors. 
+
 ### Desired Action
 
 The ability to sync a local Irmin store in the browser backed by IndexedDB with a remote on the server over HTTP. As far as I can tell, Irmin cannot support this directly at the moment as [ocaml-git does not yet support any server functionality](https://github.com/mirage/ocaml-git/issues/15) even for the dumb HTTP protocol. 
