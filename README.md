@@ -1,5 +1,7 @@
 ## Irmin HTTP Repro
 
+*Relevant Irmin Issue: https://github.com/mirage/irmin/issues/1473*
+
 ### To reproduce
 
 After installing the dependencies (most of them should be in `irmin-repro.opam`) you can run `make all`. Once that is serving you can go to `http://localhost:8080` and open the browser's console (tested on a Google Chrome and Brave) to see the printed errors. 
